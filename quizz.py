@@ -13,11 +13,15 @@ cauhoi = ["Câu 1: Khẳng định nào sau đây về Python là đúng?\n A.Py
           'Câu 10: Kết quả của code sau là gì?\n sampleList = ["Jon", "Kelly", "Jessa"]\n sampleList.append(2, "Scott")\n print(sampleList)\n A.Chương trình bị lỗi\n B.[‘Jon’, ‘Kelly’, ‘Scott’, ‘Jessa’]\n C.[‘Jon’, ‘Kelly’, ‘Jessa’, ‘Scott’]\n D.[‘Jon’, ‘Scott’, ‘Kelly’, ‘Jessa’]']
 
 dapan = ["D", "C", "D", "A", "B", "C", "C", "D", "A", "A"]
+diem = 0
 for i in range(len(cauhoi)):
     print(cauhoi[i])
     cautraloi = input("Choose A, B, C or D:")
     if cautraloi == dapan[i]:
         print("Correct!")
+        diem += 1
     else:
         print("Wrong!")
     print('\n')
+
+print(name, "point:", diem)
