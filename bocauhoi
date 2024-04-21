@@ -1,0 +1,20 @@
+Câu 1: Khẳng định nào sau đây về Python là đúng?
+Câu 2: Kí hiệu nào dùng để xác định các khối lệnh (khối lệnh của hàm, vòng lặp,...) trong Python?
+Câu 3: Khẳng định nào là đúng về chú thích trong Python?
+Câu 4: Đâu là quy tắc đúng khi đặt tên cho biến trong Python?
+Câu 5: n trong đoạn sau là kiểu dữ liệu nào? 
+n ='5' 
+Câu 6: Output của lệnh sau là: 
+print(1, 2, 3, 4, sep='*')
+Câu 7: Kết quả của đoạn code dưới đây là: 
+numbers = [2, 3, 4]print(numbers)
+Câu 8: Kết quả của code sau là:
+for x in range(0.5, 5.5, 0.5):
+  print(x)
+Câu 9: Kết quả của code sau là gì?
+x = 36 / 4 * (3 +  2) * 4 + 2
+print(x)
+Câu 10: Kết quả của code sau là gì?
+sampleList = ["Jon", "Kelly", "Jessa"]
+sampleList.append(2, "Scott")
+print(sampleList)
