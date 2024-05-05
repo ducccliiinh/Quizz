@@ -14,14 +14,17 @@ cauhoi = ["Câu 1: Khẳng định nào sau đây về Python là đúng?\n A.Py
 
 dapan = ["D", "C", "D", "A", "B", "C", "C", "D", "A", "A"]
 diem = 0
+tien = 0
 for i in range(len(cauhoi)):
     print(cauhoi[i])
     cautraloi = input("Choose A, B, C or D:")
     if cautraloi == dapan[i]:
         print("Correct!")
         diem += 1
+        tien += 1000
     else:
         print("Wrong!")
+        tien -= 500
     print('\n')
 
-print(name, "point:", diem)
+print(name, "point:", diem, 'money:', tien)
