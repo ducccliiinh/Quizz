@@ -1,5 +1,6 @@
 print("Welcome to game")
 name = input('Type your name:')
+print("RULE: Tra loi lan luot 10 cau hoi. Tra loi dung duoc 1 diem va 1000 tien. Tra loi sai se khong duoc diem va tru 500 tien")
 print('START!')
 cauhoi = ["Câu 1: Khẳng định nào sau đây về Python là đúng?\n A.Python là một ngôn ngữ lập trình cấp cao.\n B.Python là một ngôn ngữ thông dịch.\n C.Python là ngôn ngữ lập trình hướng đối tượng.\n D.Tất cả các đáp án đều đúng", 
           "Câu 2: Kí hiệu nào dùng để xác định các khối lệnh (khối lệnh của hàm, vòng lặp,...) trong Python?\n A.Dấu ngoặc nhọn { }\n B.Dấu ngoặc vuông [ ]\n C.Thụt lề\n D.Dầu ngoặc đơn ( )", 
@@ -24,7 +25,8 @@ for i in range(len(cauhoi)):
         tien += 1000
     else:
         print("Wrong!")
-        tien -= 500
+        if tien >= 500:
+               tien -= 500
     print('\n')
 
 print(name, "point:", diem, 'money:', tien)
